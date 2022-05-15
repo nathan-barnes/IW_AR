@@ -140,7 +140,7 @@ class ARButton {
 			element.style.padding = '12px 6px';
 			element.style.border = '1px solid #fff';
 			element.style.borderRadius = '4px';
-			element.style.background = 'rgba(0,0,0,0.1)';
+			element.style.background = 'rgba(234,24,0,1)';
 			element.style.color = '#fff';
 			element.style.font = 'normal 13px sans-serif';
 			element.style.textAlign = 'center';
