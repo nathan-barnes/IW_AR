@@ -108,10 +108,10 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(renderer.domElement);
     document.body.appendChild(arButton);
 
-    const itemNames = ['IW-AngelHair', 'IW-Solanum', 'IW'];
-    // const itemNames = ["IW-AngelHair", "IW-Solanum"];
-    const itemHeights = [4.5, 4.5, 4.5];
-    // const itemHeights = [4.5, 4.5];
+    // const itemNames = ['IW-AngelHair', 'IW-Solanum', 'IW'];
+    const itemNames = ["IW-AngelHair", "IW-Solanum"];
+    // const itemHeights = [4.5, 4.5, 4.5];
+    const itemHeights = [4.5, 4.5];
     const items = [];
     for (let i = 0; i < itemNames.length; i++) {
       const model = await loadGLTF(
